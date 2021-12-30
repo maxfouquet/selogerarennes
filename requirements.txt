@@ -1,0 +1,4 @@
+Django
+fake-useragent
+pandas
+requests_html

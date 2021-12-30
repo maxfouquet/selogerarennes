@@ -1,0 +1,107 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="container">
+    <div class="row d-flex justify-content-center mb-4">
+        <!--Grid column-->
+        <div class="col-md-6">
+            <form>
+                <fieldset class="form-group">
+                    <legend class="text-primary text-center mt-4">Budget max (en €)</legend>
+                    <label for="customRange1" class="form-label"><span class="badge bg-primary">800 €</span></label>
+                    <input type="range" class="form-range" id="customRange1">
+                </fieldset>
+            </form>
+        </div>
+        <!--Grid column-->
+    </div>
+    <hr />
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h5 class="card-title"><b>320€</b></h5>
+                    <h6 class="card-subtitle">4 chambres - 5 pièces - 400m²</h6>
+                </div>
+                <img src="{% static 'img/appartement.jpg' %}" />
+                <div class="card-body">
+                    <p class="card-text">Rennes (35700)</p>
+                    <a href="#" class="card-link">Cliquer ici pour voir l'annonce</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h5 class="card-title"><b>320€</b></h5>
+                    <h6 class="card-subtitle">4 chambres - 5 pièces - 400m²</h6>
+                </div>
+                <img src="{% static 'img/appartement.jpg' %}" />
+                <div class="card-body">
+                    <p class="card-text">Rennes (35700)</p>
+                    <a href="#" class="card-link">Cliquer ici pour voir l'annonce</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h5 class="card-title"><b>320€</b></h5>
+                    <h6 class="card-subtitle">4 chambres - 5 pièces - 400m²</h6>
+                </div>
+                <img src="{% static 'img/appartement.jpg' %}" />
+                <div class="card-body">
+                    <p class="card-text">Rennes (35700)</p>
+                    <a href="#" class="card-link">Cliquer ici pour voir l'annonce</a>
+                </div>
+              </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h5 class="card-title"><b>320€</b></h5>
+                    <h6 class="card-subtitle">4 chambres - 5 pièces - 400m²</h6>
+                </div>
+                <img src="{% static 'img/appartement.jpg' %}" />
+                <div class="card-body">
+                    <p class="card-text">Rennes (35700)</p>
+                    <a href="#" class="card-link">Cliquer ici pour voir l'annonce</a>
+                </div>
+              </div>
+        </div>
+    </div>
+    <div class="row d-flex justify-content-center mb-4">
+        <!--Grid column-->
+        <div class="col-md-6">
+            <ul class="pagination justify-content-center">
+                <li class="page-item disabled">
+                  <a class="page-link" href="#">&laquo;</a>
+                </li>
+                <li class="page-item active">
+                  <a class="page-link" href="#">1</a>
+                </li>
+                <li class="page-item">
+                  <a class="page-link" href="#">2</a>
+                </li>
+                <li class="page-item">
+                  <a class="page-link" href="#">3</a>
+                </li>
+                <li class="page-item">
+                  <a class="page-link" href="#">4</a>
+                </li>
+                <li class="page-item">
+                  <a class="page-link" href="#">5</a>
+                </li>
+                <li class="page-item">
+                  <a class="page-link" href="#">&raquo;</a>
+                </li>
+            </ul>
+        </div>
+        <!--Grid column-->
+    </div>
+    <hr />
+</div>
+{% endblock %}
